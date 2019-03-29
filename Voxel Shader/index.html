@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Web Gl</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css"> 
+</head>
+<body style="text-align: center; background-color: grey">
+    <h2>Visuelle Effekte</h2>
+    <h4>Webgl Engine:</h4>
+    <canvas width='800' height='600' id='can'></canvas>
+    <div>
+      <label for="directional">Directional: </label><input id="directional" type="checkbox" checked/>
+      <label for="point">Point: </label><input id="point" type="checkbox" checked/>
+    </div>
+    <script text="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script text="text/javascript" src="gl-matrix.js"></script>
+    <script text="text/javascript" src="x3dom.js"></script>
+    <script text="text/javascript" src="Classes/OBJLoader.js"></script>
+    <script text="text/javascript" src="Classes/OBJLoaderVoxel.js"></script>
+    <script src="app.js" type="module"></script>
+</body>
+</html> 
